@@ -1,0 +1,12 @@
+com/example/iutclicker/GameEngine.java
+ com.example.iutclicker.GameEngine
+com/example/iutclicker/BuildConfig.java
+ com.example.iutclicker.BuildConfig
+com/example/iutclicker/MainActivity.java
+ com.example.iutclicker.MainActivity
+com/example/iutclicker/InfernalModeActivity.java
+ com.example.iutclicker.InfernalModeActivity
+com/example/iutclicker/SpeedModeActivity.java
+ com.example.iutclicker.SpeedModeActivity
+com/example/iutclicker/ClassicModeActivity.java
+ com.example.iutclicker.ClassicModeActivity
