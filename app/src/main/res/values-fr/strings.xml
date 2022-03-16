@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="swapClassicMode">Classique</string>
+    <string name="blandineButton">Vous sortez vos pcgs !</string>
+    <string name="classicModeName">Mode classique</string>
+    <string name="levelLabel">Niveau :</string>
+    <string name="highScoreLabel">Meilleur score :</string>
+    <string name="scoreLabel">Argent :</string>
+    <string name="costLabel">Coût :</string>
+    <string name="exitGameMode">Retour</string>
+    <string name="objoisButton">C\'est monstrueux !</string>
+    <string name="infernalModeName">Mode infernal</string>
+    <string name="later">On verra ça plus tard.</string>
+    <string name="doesPing">Alors, ça ping ?</string>
+    <string name="frames">Je veux voir des trames.</string>
+    <string name="youTalkGood">J\'aime quand vous parlez comme ça.</string>
+    <string name="easyForYou">C\'est facile, vous savez faire.</string>
+    <string name="dontLeave"><![CDATA[Personne ne sort avant &#189; heure.]]></string>
+    <string name="noProblem">Qu\'à cela ne tienne.</string>
+    <string name="monstrous">C\'est monstrueux !</string>
+    <string name="yourTooBad">J\'ai revu le barème.</string>
+    <string name="simple">C\'est simple, mais diablement efficace !</string>
+    <string name="speedModeName">Contre la montre</string>
+    <string name="resetSpeedButton">Recommencer</string>
+</resources>

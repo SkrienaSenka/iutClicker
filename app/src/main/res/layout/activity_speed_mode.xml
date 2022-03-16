@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SpeedModeActivity">
+
+  <TextView
+      android:id="@+id/speedModeName"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleX="2"
+      android:scaleY="2"
+      android:text="@string/speedModeName"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.050000012" />
+
+  <ImageButton
+      android:id="@+id/jeanButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:contentDescription="@string/jeanButton"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.8"
+      app:srcCompat="@drawable/jean" />
+
+  <Button
+      android:id="@+id/speedToMain"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/exitGameMode"
+      app:backgroundTint="#FFFF7A06"
+      app:cornerRadius="15dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/jeanButton" />
+
+  <LinearLayout
+      android:id="@+id/linearLayout2"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      android:scaleX="2"
+      android:scaleY="2"
+      app:layout_constraintBottom_toTopOf="@+id/speedScoreLabel"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/speedModeName">
+
+    <TextView
+        android:id="@+id/speedHighScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/highScoreLabel" />
+
+    <TextView
+        android:id="@+id/speedHighScoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" />
+  </LinearLayout>
+
+  <TextView
+      android:id="@+id/speedScoreLabel"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleX="2"
+      android:scaleY="2"
+      android:text="@string/infernalScoreLabel"
+      app:layout_constraintBottom_toTopOf="@+id/jeanButton"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/speedModeName"
+      app:layout_constraintVertical_bias="0.45" />
+
+  <TextView
+      android:id="@+id/speedScoreView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleX="2"
+      android:scaleY="2"
+      app:layout_constraintBottom_toTopOf="@+id/jeanButton"
+      app:layout_constraintEnd_toEndOf="@+id/speedScoreLabel"
+      app:layout_constraintStart_toStartOf="@+id/speedScoreLabel"
+      app:layout_constraintTop_toBottomOf="@+id/speedScoreLabel"
+      app:layout_constraintVertical_bias="0.100000024" />
+
+  <TextView
+      android:id="@+id/jeanPunchlineView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:scaleX="1.5"
+      android:scaleY="1.5"
+      app:layout_constraintBottom_toTopOf="@+id/jeanButton"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/speedScoreView"
+      app:layout_constraintVertical_bias="0.25" />
+
+  <Button
+      android:id="@+id/resetSpeedButton"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/resetSpeedButton"
+      app:backgroundTint="#FFFF7A06"
+      app:cornerRadius="15dp"
+      app:layout_constraintBottom_toBottomOf="@+id/jeanButton"
+      app:layout_constraintEnd_toEndOf="@+id/jeanButton"
+      app:layout_constraintStart_toStartOf="@+id/jeanButton"
+      app:layout_constraintTop_toTopOf="@+id/jeanButton"
+      app:layout_constraintVertical_bias="0.100000024" />
+
+  <TextView
+      android:id="@+id/timerView"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginBottom="13dp"
+      app:layout_constraintBottom_toTopOf="@+id/jeanButton"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/jeanPunchlineView"
+      app:layout_constraintVertical_bias="0.84000003" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

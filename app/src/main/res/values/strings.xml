@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name" translatable="false">IUT Clicker</string>
+    <string name="titre" translatable="false">IUT Clicker</string>
+    <string name="logo_iut" translatable="false">Logo IUT</string>
+    <string name="swapClassicMode">Classic</string>
+    <string name="swapInfernalMode" translatable="false">Infernal</string>
+    <string name="swapSpeedMode" translatable="false">Speed</string>
+    <string name="blandineButton">Blandine Constant</string>
+    <string name="classicModeName">Classic mode</string>
+    <string name="levelLabel">Level :</string>
+    <string name="mercierButton" translatable="false">Anabelle Mercier</string>
+    <string name="highScoreLabel">Highscore :</string>
+    <string name="scoreLabel">Money :</string>
+    <string name="costLabel">Cost :</string>
+    <string name="exitGameMode">Back</string>
+    <string name="objoisButton">Philippe Objois</string>
+    <string name="infernalModeName">Infernal mode</string>
+    <string name="infernalScoreLabel" translatable="false">Score :</string>
+    <string name="later">We\'ll see that later.</string>
+    <string name="doesPing">Does it ping ?</string>
+    <string name="frames">I want to see frames.</string>
+    <string name="youTalkGood">I like it when you talk like that.</string>
+    <string name="easyForYou">That\'s easy, you know the deal.</string>
+    <string name="dontLeave">Nobody leaves until half an hour has passed.</string>
+    <string name="noProblem">No problem.</string>
+    <string name="monstrous">Monstrous !</string>
+    <string name="yourTooBad">I changed the schedule.</string>
+    <string name="simple">That\'s simple, but devilishly effective !</string>
+    <string name="speedModeName">Speed mode</string>
+    <string name="jeanButton" translatable="false">Sebastien Jean</string>
+    <string name="resetSpeedButton">Reset</string>
+</resources>
