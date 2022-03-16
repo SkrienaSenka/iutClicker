@@ -16,17 +16,44 @@
     <string name="objoisButton">Philippe Objois</string>
     <string name="infernalModeName">Infernal mode</string>
     <string name="infernalScoreLabel" translatable="false">Score :</string>
-    <string name="later">We\'ll see that later.</string>
-    <string name="doesPing">Does it ping ?</string>
-    <string name="frames">I want to see frames.</string>
-    <string name="youTalkGood">I like it when you talk like that.</string>
-    <string name="easyForYou">That\'s easy, you know the deal.</string>
-    <string name="dontLeave">Nobody leaves until half an hour has passed.</string>
-    <string name="noProblem">No problem.</string>
-    <string name="monstrous">Monstrous !</string>
-    <string name="yourTooBad">I changed the schedule.</string>
-    <string name="simple">That\'s simple, but devilishly effective !</string>
+
+    <string name="objois0">We\'ll see that later.</string>
+    <string name="objois1">Does it ping ?</string>
+    <string name="objois2">I want to see frames.</string>
+    <string name="objois3">I like it when you talk like that.</string>
+    <string name="objois4">That\'s easy, you know the deal.</string>
+    <string name="objois5">Nobody leaves until half an hour has passed.</string>
+    <string name="objois6">No problem.</string>
+    <string name="objois7">Monstrous !</string>
+    <string name="objois8">I changed the schedule.</string>
+    <string name="objois9">That\'s simple, but devilishly effective !</string>
+    <string name="objois10">False and True is False.</string>
+
     <string name="speedModeName">Speed mode</string>
     <string name="jeanButton" translatable="false">Sebastien Jean</string>
     <string name="resetSpeedButton">Reset</string>
+
+    <string name="jean0" translatable="false">Factory</string>
+    <string name="jean1" translatable="false">Abstract Factory</string>
+    <string name="jean2" translatable="false">Singleton</string>
+    <string name="jean3" translatable="false">Prototype</string>
+    <string name="jean4" translatable="false">Builder</string>
+    <string name="jean5" translatable="false">Adapter</string>
+    <string name="jean6" translatable="false">Bridge</string>
+    <string name="jean7" translatable="false">Composite</string>
+    <string name="jean8" translatable="false">Decorator</string>
+    <string name="jean9" translatable="false">Facade</string>
+    <string name="jean10" translatable="false">Flyweight</string>
+    <string name="jean11" translatable="false">Proxy</string>
+    <string name="jean12" translatable="false">Chain Of Responsibility</string>
+    <string name="jean13" translatable="false">Command</string>
+    <string name="jean14" translatable="false">Interpreter</string>
+    <string name="jean15" translatable="false">Iterator</string>
+    <string name="jean16" translatable="false">Mediator</string>
+    <string name="jean17" translatable="false">Memento</string>
+    <string name="jean18" translatable="false">Observer</string>
+    <string name="jean19" translatable="false">State</string>
+    <string name="jean20" translatable="false">Strategy</string>
+    <string name="jean21" translatable="false">Template</string>
+    <string name="jean22" translatable="false">Visitor</string>
 </resources>

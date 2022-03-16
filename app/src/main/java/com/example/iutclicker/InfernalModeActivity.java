@@ -16,7 +16,7 @@ public class InfernalModeActivity extends AppCompatActivity {
     private TextView score;
     private TextView punchlineView;
     private String[] punchlines;
-    private final int nbPunchlines = 10;
+    private static final int NB_PUNCHLINES = 11;
     private Thread decrease;
 
     @Override
@@ -33,8 +33,7 @@ public class InfernalModeActivity extends AppCompatActivity {
         this.score.setText(String.valueOf(this.game.getScore()));
 
         this.punchlineView = findViewById(R.id.objoisPunchlineView);
-
-        this.punchlines = new String[this.nbPunchlines];
+        this.punchlines = new String[NB_PUNCHLINES];
         fillLines();
 
         this.decrease = new Thread(() -> {
@@ -52,16 +51,17 @@ public class InfernalModeActivity extends AppCompatActivity {
     }
 
     private void fillLines() {
-        this.punchlines[0] = this.getString(R.string.later);
-        this.punchlines[1] = this.getString(R.string.doesPing);
-        this.punchlines[2] = this.getString(R.string.frames);
-        this.punchlines[3] = this.getString(R.string.youTalkGood);
-        this.punchlines[4] = this.getString(R.string.easyForYou);
-        this.punchlines[5] = this.getString(R.string.dontLeave);
-        this.punchlines[6] = this.getString(R.string.noProblem);
-        this.punchlines[7] = this.getString(R.string.monstrous);
-        this.punchlines[8] = this.getString(R.string.yourTooBad);
-        this.punchlines[9] = this.getString(R.string.simple);
+        this.punchlines[0] = getString(R.string.objois0);
+        this.punchlines[1] = getString(R.string.objois1);
+        this.punchlines[2] = getString(R.string.objois2);
+        this.punchlines[3] = getString(R.string.objois3);
+        this.punchlines[4] = getString(R.string.objois4);
+        this.punchlines[5] = getString(R.string.objois5);
+        this.punchlines[6] = getString(R.string.objois6);
+        this.punchlines[7] = getString(R.string.objois7);
+        this.punchlines[8] = getString(R.string.objois8);
+        this.punchlines[9] = getString(R.string.objois9);
+        this.punchlines[10] = getString(R.string.objois10);
     }
 
     public void objoisClicked(View view) {
@@ -74,7 +74,7 @@ public class InfernalModeActivity extends AppCompatActivity {
 
     private String getRandomLine() {
         Random rand = new Random();
-        return this.punchlines[rand.nextInt(this.nbPunchlines)];
+        return this.punchlines[rand.nextInt(this.punchlines.length)];
     }
 
     public void exit(View view) {

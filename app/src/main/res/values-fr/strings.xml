@@ -10,16 +10,19 @@
     <string name="exitGameMode">Retour</string>
     <string name="objoisButton">C\'est monstrueux !</string>
     <string name="infernalModeName">Mode infernal</string>
-    <string name="later">On verra ça plus tard.</string>
-    <string name="doesPing">Alors, ça ping ?</string>
-    <string name="frames">Je veux voir des trames.</string>
-    <string name="youTalkGood">J\'aime quand vous parlez comme ça.</string>
-    <string name="easyForYou">C\'est facile, vous savez faire.</string>
-    <string name="dontLeave"><![CDATA[Personne ne sort avant &#189; heure.]]></string>
-    <string name="noProblem">Qu\'à cela ne tienne.</string>
-    <string name="monstrous">C\'est monstrueux !</string>
-    <string name="yourTooBad">J\'ai revu le barème.</string>
-    <string name="simple">C\'est simple, mais diablement efficace !</string>
+
+    <string name="objois0">On verra ça plus tard.</string>
+    <string name="objois1">Alors, ça ping ?</string>
+    <string name="objois2">Je veux voir des trames.</string>
+    <string name="objois3">J\'aime quand vous parlez comme ça</string>
+    <string name="objois4">C\'est facile, vous savez faire.</string>
+    <string name="objois5">Personne ne part avant une demi-heure.</string>
+    <string name="objois6">Qu\'à cela ne tienne.</string>
+    <string name="objois7">C\'est monstrueux !</string>
+    <string name="objois8">J\'ai revu le barème.</string>
+    <string name="objois9">C\'est simple mais diablement efficace !</string>
+    <string name="objois10">Faux et Vrai c\'est Faux.</string>
+
     <string name="speedModeName">Contre la montre</string>
     <string name="resetSpeedButton">Recommencer</string>
 </resources>

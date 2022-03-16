@@ -14,13 +14,19 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void goClassic(View view) {
-        Intent activity = new Intent(this, ClassicModeActivity.class);
-        startActivity(activity);
-    }
-
-    public void goInfernal(View view) {
-        Intent activity = new Intent(this, InfernalModeActivity.class);
+    public void switchMode(View view) {
+        Intent activity;
+        switch (view.getId()) {
+            case R.id.swapInfernalMode:
+                activity = new Intent(this, InfernalModeActivity.class);
+                break;
+            case R.id.swapSpeedMode:
+                activity = new Intent(this, SpeedModeActivity.class);
+                break;
+            default:
+                activity = new Intent(this, ClassicModeActivity.class);
+                break;
+        }
         startActivity(activity);
     }
 }

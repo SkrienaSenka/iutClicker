@@ -3,7 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Alain/Desktop/jeux hugo/Mes_jeux/iutClicker/app/src/main/res/layout/activity_classic_mode.xml" value="0.1" />
         <entry key="..\:/Users/Alain/Desktop/jeux hugo/Mes_jeux/iutClicker/app/src/main/res/layout/activity_infernal_mode.xml" value="0.22" />
+        <entry key="..\:/Users/Alain/Desktop/jeux hugo/Mes_jeux/iutClicker/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/Alain/Desktop/jeux hugo/Mes_jeux/iutClicker/app/src/main/res/layout/activity_speed_mode.xml" value="0.14130434782608695" />
       </map>
     </option>
   </component>
