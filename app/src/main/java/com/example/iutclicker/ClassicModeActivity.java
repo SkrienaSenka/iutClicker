@@ -4,6 +4,7 @@ import static java.lang.Math.round;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -35,7 +36,7 @@ public class ClassicModeActivity extends AppCompatActivity {
 
     // TODO Set onClick listener for the buttons
     public void blandineClicked(View view) {
-        if (this.game.increaseScore((int) round(this.game.getLevel()*0.2*this.game.getLevel()) + 1)) {
+        if (this.game.increaseScore((int) round(this.game.getLevel()*0.08*this.game.getLevel()) + 1)) {
             this.highScore.setText(String.valueOf(this.game.getHighScore()));
         }
         this.score.setText(String.valueOf(this.game.getScore()));
@@ -49,6 +50,21 @@ public class ClassicModeActivity extends AppCompatActivity {
             this.cost.setText(String.valueOf(round(this.game.getLevel()*0.8*this.game.getLevel())));
             this.score.setText(String.valueOf(this.game.getScore()));
         }
+    }
+
+    public void shareHighScore(View view) {
+        String subject = getString(R.string.subject);
+
+        String content = getString(R.string.content) + " " + this.game.getHighScore() + " " +  getString(R.string.contentClassic);
+
+        Intent intentEmail = new Intent(Intent.ACTION_SEND);
+
+        intentEmail.putExtra(Intent.EXTRA_SUBJECT, subject);
+        intentEmail.putExtra(Intent.EXTRA_TEXT, content);
+
+        intentEmail.setType("text/plain");
+
+        startActivity(Intent.createChooser(intentEmail,getString(R.string.choose)));
     }
 
     public void exit(View view) {

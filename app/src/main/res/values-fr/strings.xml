@@ -25,4 +25,11 @@
 
     <string name="speedModeName">Contre la montre</string>
     <string name="resetSpeedButton">Recommencer</string>
+    <string name="subject">Mon meilleur score dans le meilleur jeu !</string>
+    <string name="content">J\'ai eu</string>
+    <string name="contentClassic">points dans le mode Classique !</string>
+    <string name="contentInfernal">points dans le mode Infernal !</string>
+    <string name="contentSpeed">points dans le mode Contre la montre !</string>
+    <string name="choose">Choisir l\'expediteur...</string>
+    <string name="swapSpeedMode">Contre la montre</string>
 </resources>

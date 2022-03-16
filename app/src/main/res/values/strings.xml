@@ -4,7 +4,7 @@
     <string name="logo_iut" translatable="false">Logo IUT</string>
     <string name="swapClassicMode">Classic</string>
     <string name="swapInfernalMode" translatable="false">Infernal</string>
-    <string name="swapSpeedMode" translatable="false">Speed</string>
+    <string name="swapSpeedMode">Speed</string>
     <string name="blandineButton">Blandine Constant</string>
     <string name="classicModeName">Classic mode</string>
     <string name="levelLabel">Level :</string>
@@ -56,4 +56,11 @@
     <string name="jean20" translatable="false">Strategy</string>
     <string name="jean21" translatable="false">Template</string>
     <string name="jean22" translatable="false">Visitor</string>
+
+    <string name="subject">My highscore in the best game !</string>
+    <string name="content">I\'ve got</string>
+    <string name="contentClassic">points on the Classic mode !</string>
+    <string name="contentInfernal">points on the Infernal mode !</string>
+    <string name="contentSpeed">points on the Speed mode !</string>
+    <string name="choose">Choose an email client from...</string>
 </resources>

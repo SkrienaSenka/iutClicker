@@ -3243,8 +3243,13 @@ string character_counter_content_description
 string character_counter_overflowed_content_description
 string character_counter_pattern
 string chip_text
+string choose
 string classicModeName
 string clear_text_end_icon_content_description
+string content
+string contentClassic
+string contentInfernal
+string contentSpeed
 string costLabel
 string error_icon_content_description
 string exitGameMode
@@ -3387,6 +3392,7 @@ string scoreLabel
 string search_menu_title
 string speedModeName
 string status_bar_notification_info_overflow
+string subject
 string swapClassicMode
 string swapInfernalMode
 string swapSpeedMode

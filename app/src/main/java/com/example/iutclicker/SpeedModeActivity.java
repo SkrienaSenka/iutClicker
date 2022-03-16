@@ -3,6 +3,8 @@ package com.example.iutclicker;
 import static java.lang.Math.round;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -124,6 +126,21 @@ public class SpeedModeActivity extends AppCompatActivity {
     private String getRandomLine() {
         Random rand = new Random();
         return this.punchlines[rand.nextInt(this.punchlines.length)];
+    }
+
+    public void shareHighScore(View view) {
+        String subject = getString(R.string.subject);
+
+        String content = getString(R.string.content) + " " + this.game.getHighScore() + " " +  getString(R.string.contentSpeed);
+
+        Intent intentEmail = new Intent(Intent.ACTION_SEND);
+
+        intentEmail.putExtra(Intent.EXTRA_SUBJECT, subject);
+        intentEmail.putExtra(Intent.EXTRA_TEXT, content);
+
+        intentEmail.setType("text/plain");
+
+        startActivity(Intent.createChooser(intentEmail,getString(R.string.choose)));
     }
 
     public void exit(View view) {
